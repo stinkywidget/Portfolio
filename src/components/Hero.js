@@ -1,4 +1,4 @@
-import portrait from "../newyears.png";
+import portrait from "../Portrait.png";
 import blob from "../blob.webp";
 
 export default function Hero() {
@@ -27,7 +27,7 @@ export default function Hero() {
           <div className="relative bg-purple/25 shadow-[0_0_10px_rgb(0,0,0,0.33)] rounded-full overflow-hidden max-h-[400px] max-w-[400px]">
             <img
               src={portrait}
-              className="scale-[1.25] relative top-[40px] left-[40px] drop-shadow-[0_0_50px_#6c0c6c]"
+              className="scale-[1.5] relative top-[10px] right-[10px] drop-shadow-[0_0_50px_#6c0c6c]"
             />
           </div>
         </div>
